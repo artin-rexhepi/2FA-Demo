@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     private EditText emailField, passwordField;
-    private String hardcodedEmail = "artinrexhepi03@gmail.com";
+    private String hardcodedEmail = "test@gmail.com";
     private String hardcodedPassword = "mobile123";
     private String generatedOTP;
 

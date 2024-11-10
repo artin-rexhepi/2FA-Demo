@@ -8,10 +8,10 @@ import javax.mail.*;
 import javax.mail.internet.*;
 
 public class EmailSender {
-    private static final String SMTP_SERVER = "smtp-relay.brevo.com"; // Brevo's SMTP server
-    private static final String SMTP_PORT = "587"; // Brevo's SMTP port
-    private static final String SENDER_EMAIL = "artin.rexhepi1@student.uni-pr.edu"; // Replace with your Brevo-verified email
-    private static final String SENDER_PASSWORD = "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"; // Replace with your Brevo API key
+    private static final String SMTP_SERVER = "smtp-relay.brevo.com";
+    private static final String SMTP_PORT = "587";
+    private static final String SENDER_EMAIL = "add-your-verified-email-here";
+    private static final String SENDER_PASSWORD = "add-your-api-key-here"; // Replace with your Brevo API key
 
 
     public static String generateOTP() {
