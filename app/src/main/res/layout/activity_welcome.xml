@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="#2E2E2E"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -8,24 +9,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="#D4CFCF"
         android:padding="16dp">
 
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/ic_launcher_foreground"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_up"
             android:layout_gravity="center"
-            android:contentDescription="Logo"/>
+            android:contentDescription="University Logo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome User"
+            android:text="Welcome User!"
             android:textSize="24sp"
             android:textColor="#FFFFFF"
-            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="24dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>
